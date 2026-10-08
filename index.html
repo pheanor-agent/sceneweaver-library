@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4efe5">
+  <meta name="description" content="매일 만나는 영화, 애니메이션, 동화 세 권의 이야기 서재">
+  <title>SceneWeaver — 오늘의 서재</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="wordmark" href="./" aria-label="SceneWeaver 서재 홈">SCENEWEAVER <span>STORY LIBRARY</span></a>
+    <span class="mast-note">매일, 세 개의 세계를 펼칩니다</span>
+  </header>
+  <main id="app" class="page-shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <p class="eyebrow">A DAILY READING JOURNAL</p>
+      <h1 id="hero-title">오늘은 어떤 세계로<br><em>떠나볼까요?</em></h1>
+      <p class="hero-copy">영화 같은 한 장면, 오래 기억될 모험.<br>오늘의 이야기를 한 페이지씩 천천히 만나보세요.</p>
+      <div class="hero-rule"><span id="today-count">서재를 여는 중</span><span>SEOUL · KST</span></div>
+    </section>
+    <section class="featured" aria-labelledby="featured-title">
+      <div class="section-heading"><div><p class="eyebrow">FRESH OFF THE PRESS</p><h2 id="featured-title">오늘의 신간</h2></div><span class="section-index">01 / NEW</span></div>
+      <div id="featured-grid" class="featured-grid" aria-live="polite"></div>
+    </section>
+    <section class="archive" aria-labelledby="archive-title">
+      <div class="section-heading"><div><p class="eyebrow">THE GROWING COLLECTION</p><h2 id="archive-title">날짜별 서재</h2></div><span class="section-index">02 / ARCHIVE</span></div>
+      <div class="library-controls">
+        <label class="search-box"><span class="sr-only">책 제목 검색</span><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="책 제목을 검색하세요" autocomplete="off"></label>
+        <label class="select-box"><span class="sr-only">월 선택</span><select id="month"><option value="">모든 달</option></select></label>
+      </div>
+      <div class="filters" role="group" aria-label="종류 필터">
+        <button class="filter is-active" data-filter="all" aria-pressed="true">모두</button>
+        <button class="filter" data-filter="film" aria-pressed="false">영화</button>
+        <button class="filter" data-filter="animation" aria-pressed="false">애니메이션</button>
+        <button class="filter" data-filter="children" aria-pressed="false">동화</button>
+      </div>
+      <div id="archive-list" class="archive-list"></div>
+      <button id="more-books" type="button" class="filter archive-more" hidden>이전 이야기 더 보기</button>
+      <p id="empty" class="empty-state" hidden>조건에 맞는 책이 아직 없어요. 검색어나 필터를 바꿔보세요.</p>
+    </section>
+    <footer><span>SCENEWEAVER LIBRARY</span><span>Stories, gathered day by day.</span></footer>
+  </main>
+  <main id="reader" class="reader" hidden></main>
+</body>
+</html>
