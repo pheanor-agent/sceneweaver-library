@@ -1,0 +1,103 @@
+{
+  "book_id": "20261009-book-01",
+  "date": "2026-10-09",
+  "title": "비단길의 마지막 편지",
+  "type": "film",
+  "genre": "역사",
+  "summary": "비 갠 한양 골목에서 서윤은 아버지의 푸른 비단끈 편지를 가방에 넣고 길을 떠났다.",
+  "page_count": 13,
+  "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/28f1dbe7745b0383b7b4-cover.webp",
+  "pages": [
+    {
+      "page": 1,
+      "paragraph": "비 갠 한양 골목에서 서윤은 아버지의 푸른 비단끈 편지를 가방에 넣고 길을 떠났다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/28f1dbe7745b0383b7b4.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 2,
+      "paragraph": "나침반 바늘은 북쪽을 가리켰고, 서윤은 낯선 길도 제 발로 찾겠다고 마음먹었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/ab188f76190dc950b5a9.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 3,
+      "paragraph": "첫 역참에서 마부 덕구는 의주 길에 도적이 나타난다는 소문을 들려주었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/2ce1100427cf3d5c0c1a.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 4,
+      "paragraph": "서윤은 겁먹은 어린 심부름꾼을 만나 함께 길을 가자고 먼저 손을 내밀었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/b029b4bcda7ca60d4afa.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 5,
+      "paragraph": "산길에서 갑자기 비가 쏟아져 두 사람은 바위틈에서 비를 피했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/3acbebc65f806d61dd76.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 6,
+      "paragraph": "젖은 지도는 찢어졌지만, 서윤은 나침반과 별자리를 떠올려 방향을 잡았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/afeb8cf6c6ca53fd3479.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 7,
+      "paragraph": "밤길에 나타난 그림자는 도적이 아니라 길을 잃은 상인이었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/2083ca291633a28302c7.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 8,
+      "paragraph": "상인은 편지에 적힌 아버지의 이름을 보고 오래전 은혜를 갚고 싶다며 길을 안내했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/5fc764c471c7f4ae1838.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 9,
+      "paragraph": "강물이 불어나자 서윤은 짐을 나누고 마을 사람들과 밧줄 다리를 만들었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/b550673edb3b8413a656.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 10,
+      "paragraph": "강을 건넌 뒤 서윤은 편지를 열어 보았고, 아버지가 두 마을을 화해시키려 했음을 알았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/c2a3e13acee908135b45.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 11,
+      "paragraph": "의주 성문 앞에서 두 마을 대표는 서로를 의심했지만, 서윤은 편지를 직접 읽어 주었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/a8f1b72e50b0f26d47ad.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 12,
+      "paragraph": "아버지가 나눈 곡식과 도움의 기록에 사람들은 고개를 숙이고 서로 손을 잡았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/b8e770146c32af31f316.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "page": 13,
+      "paragraph": "서윤은 빈 가방과 따뜻한 미소로 한양으로 돌아섰고, 길 위의 새 인연을 마음에 담았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/da86b3d929f770ddd1e5.webp",
+      "width": 1448,
+      "height": 1086
+    }
+  ]
+}

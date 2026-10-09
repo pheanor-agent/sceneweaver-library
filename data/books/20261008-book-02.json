@@ -6,124 +6,124 @@
   "genre": "역사",
   "summary": "조선의 산골 마을에서 견습 악공 도윤은 보름달 축제에 쓸 작은 북을 들고 관측소로 향했다.",
   "page_count": 17,
-  "cover": "./media/20261008-book-02/abb12decabb55622c498-cover.webp",
+  "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/abb12decabb55622c498-cover.webp",
   "pages": [
     {
       "page": 1,
       "paragraph": "조선의 산골 마을에서 견습 악공 도윤은 보름달 축제에 쓸 작은 북을 들고 관측소로 향했다.",
-      "image": "./media/20261008-book-02/abb12decabb55622c498.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/abb12decabb55622c498.webp",
       "width": 1448,
       "height": 1086
     },
     {
       "page": 2,
       "paragraph": "북에는 은빛 초승달이 그려져 있었고, 파란 날개의 까치 까비가 그의 어깨 위에서 노래했다.",
-      "image": "./media/20261008-book-02/695c333cb7471e2a22d8.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/695c333cb7471e2a22d8.webp",
       "width": 1448,
       "height": 1086
     },
     {
       "page": 3,
       "paragraph": "축제 길을 비출 등불은 해 질 무렵마다 별자리 모양으로 켜지도록 준비되어 있었다.",
-      "image": "./media/20261008-book-02/58491b022a044d51d5c1.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/58491b022a044d51d5c1.webp",
       "width": 1448,
       "height": 1086
     },
     {
       "page": 4,
       "paragraph": "하지만 갑자기 짙은 안개가 내려와 산길의 등불과 마을의 북소리를 모두 삼켜 버렸다.",
-      "image": "./media/20261008-book-02/0ba74f2f1ce13443eb6a.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/0ba74f2f1ce13443eb6a.webp",
       "width": 1448,
       "height": 1086
     },
     {
       "page": 5,
       "paragraph": "도윤은 관측소의 늙은 별지기에게 길을 물으려 했지만, 높은 문은 바람에 잠겨 열리지 않았다.",
-      "image": "./media/20261008-book-02/b2c9a0f416fee65e63d1.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/b2c9a0f416fee65e63d1.webp",
       "width": 1448,
       "height": 1086
     },
     {
       "page": 6,
       "paragraph": "까비는 처마 밑에서 작은 청동종을 발견하고 부리로 살짝 건드려 맑은 소리를 냈다.",
-      "image": "./media/20261008-book-02/60eede15188486d17b2e.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/60eede15188486d17b2e.webp",
       "width": 1448,
       "height": 1086
     },
     {
       "page": 7,
       "paragraph": "도윤은 그 울림이 축제 북의 첫 박자와 꼭 맞는다는 것을 알아차렸다.",
-      "image": "./media/20261008-book-02/b4ae2af5980506469ef8.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/b4ae2af5980506469ef8.webp",
       "width": 1600,
       "height": 900
     },
     {
       "page": 8,
       "paragraph": "그는 북을 세 번 천천히 두드리고, 종이 한 번 답하는 소리를 기다렸다.",
-      "image": "./media/20261008-book-02/fb754e5d213db14d3771.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/fb754e5d213db14d3771.webp",
       "width": 1600,
       "height": 900
     },
     {
       "page": 9,
       "paragraph": "안개 너머 마을에서는 보이지 않는 사람들이 박자를 따라 손뼉을 치기 시작했다.",
-      "image": "./media/20261008-book-02/546d01edf30315a981ad.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/546d01edf30315a981ad.webp",
       "width": 1600,
       "height": 900
     },
     {
       "page": 10,
       "paragraph": "도윤은 별지기의 접힌 별자리 두루마리를 펼쳐 산등성이의 밝은 별을 찾아냈다.",
-      "image": "./media/20261008-book-02/898d77f2c7e89144e069.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/898d77f2c7e89144e069.webp",
       "width": 1600,
       "height": 900
     },
     {
       "page": 11,
       "paragraph": "까비는 낮은 구름 사이에서 북극성을 가리키듯 날개를 펴고 안전한 능선으로 날아갔다.",
-      "image": "./media/20261008-book-02/8c5ba72fba3cbb0a79c4.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/8c5ba72fba3cbb0a79c4.webp",
       "width": 1600,
       "height": 900
     },
     {
       "page": 12,
       "paragraph": "도윤은 길을 잃은 아이들과 장터 사람들을 만나 북소리로 함께 걸을 방향을 알려 주었다.",
-      "image": "./media/20261008-book-02/293fd61c9aca03d77b63.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/293fd61c9aca03d77b63.webp",
       "width": 1600,
       "height": 900
     },
     {
       "page": 13,
       "paragraph": "갈림길에서 바람이 세차게 불자 그는 북을 품에 안고 종소리가 돌아오는 쪽을 확인했다.",
-      "image": "./media/20261008-book-02/e8dc98fe86ee5de21749.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/e8dc98fe86ee5de21749.webp",
       "width": 1600,
       "height": 900
     },
     {
       "page": 14,
       "paragraph": "마지막 오르막에서 도윤은 지친 사람들과 박자를 맞추며 한 걸음씩 관측소까지 이끌었다.",
-      "image": "./media/20261008-book-02/86b0175f150580e154e2.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/86b0175f150580e154e2.webp",
       "width": 1600,
       "height": 900
     },
     {
       "page": 15,
       "paragraph": "별지기는 문을 열어 등불을 다시 밝히고, 마을과 산길을 잇는 큰 등불을 걸었다.",
-      "image": "./media/20261008-book-02/e065f5f825d150242bae.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/e065f5f825d150242bae.webp",
       "width": 1600,
       "height": 900
     },
     {
       "page": 16,
       "paragraph": "안개가 걷힌 밤, 사람들은 북과 종의 소리를 따라 축제 마당에 모여 둥근 춤을 추었다.",
-      "image": "./media/20261008-book-02/654b5226d715549de02a.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/654b5226d715549de02a.webp",
       "width": 1600,
       "height": 900
     },
     {
       "page": 17,
       "paragraph": "도윤은 은빛 달 아래 북을 내려놓고, 서로의 소리를 들으면 어두운 길도 함께 찾을 수 있다고 배웠다.",
-      "image": "./media/20261008-book-02/dacb78f2f0d0fde25982.webp",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/dacb78f2f0d0fde25982.webp",
       "width": 1600,
       "height": 900
     }

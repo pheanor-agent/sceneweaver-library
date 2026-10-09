@@ -12,6 +12,36 @@
       "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-moonlight-post-office/9b02c59d8730100e7a6b-cover.webp"
     },
     {
+      "book_id": "20261009-book-03",
+      "date": "2026-10-09",
+      "title": "콩이와 바람 우체통",
+      "type": "children",
+      "genre": "유아 동화",
+      "summary": "콩이는 아침 햇살 아래 언덕마을의 빨간 우체통을 살폈어요.",
+      "page_count": 23,
+      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/82de789806944a0b14dc-cover.webp"
+    },
+    {
+      "book_id": "20261009-book-02",
+      "date": "2026-10-09",
+      "title": "달빛을 조율하는 고래",
+      "type": "animation",
+      "genre": "음악",
+      "summary": "루미가 사는 하늘바다에서 별들이 하나둘 깜빡이며 빛을 잃기 시작했다.",
+      "page_count": 10,
+      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/6d26dbc49889c4d61723-cover.webp"
+    },
+    {
+      "book_id": "20261009-book-01",
+      "date": "2026-10-09",
+      "title": "비단길의 마지막 편지",
+      "type": "film",
+      "genre": "역사",
+      "summary": "비 갠 한양 골목에서 서윤은 아버지의 푸른 비단끈 편지를 가방에 넣고 길을 떠났다.",
+      "page_count": 13,
+      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-09/28f1dbe7745b0383b7b4-cover.webp"
+    },
+    {
       "book_id": "20261008-book-03",
       "date": "2026-10-08",
       "title": "콩콩이와 무지개 물방울",
@@ -19,7 +49,7 @@
       "genre": "유아 동화",
       "summary": "콩콩이는 노란 장화를 신고 유치원 정원에 나가, 가장 작은 씨앗을 화단에 심었어요.",
       "page_count": 19,
-      "cover": "./media/20261008-book-03/11631a5f07fb52dec420-cover.webp"
+      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/11631a5f07fb52dec420-cover.webp"
     },
     {
       "book_id": "20261008-book-02",
@@ -29,7 +59,7 @@
       "genre": "역사",
       "summary": "조선의 산골 마을에서 견습 악공 도윤은 보름달 축제에 쓸 작은 북을 들고 관측소로 향했다.",
       "page_count": 17,
-      "cover": "./media/20261008-book-02/abb12decabb55622c498-cover.webp"
+      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/abb12decabb55622c498-cover.webp"
     },
     {
       "book_id": "20261008-book-01",
@@ -39,7 +69,7 @@
       "genre": "모험",
       "summary": "해원은 바닷길이 하루 두 번 사라지는 소등도에 도착해, 낡은 등대의 마지막 지도를 새로 그리기로 했다.",
       "page_count": 28,
-      "cover": "./media/20261008-book-01/9d1a5230c61fc6fa668d-cover.webp"
+      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/9d1a5230c61fc6fa668d-cover.webp"
     }
   ]
 }
