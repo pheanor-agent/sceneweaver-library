@@ -2,6 +2,16 @@
   "schema": "sceneweaver.public-catalog.v1",
   "books": [
     {
+      "book_id": "20261009-special-01",
+      "date": "2026-10-09",
+      "title": "달빛 우체국과 잃어버린 별빛 편지",
+      "type": "special",
+      "genre": "특별판 그림책",
+      "summary": "비가 갠 밤, 작은 달빛 우체국의 우편함 안에서 미루는 봉투도 주소도 없는 별빛 편지를 발견했어요. 편지는 따뜻하게 반짝였고, 미루는 누군가 오래 기다린 소식일지 모른다고 생각했지요.",
+      "page_count": 6,
+      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-moonlight-post-office/9b02c59d8730100e7a6b-cover.webp"
+    },
+    {
       "book_id": "20261008-book-03",
       "date": "2026-10-08",
       "title": "콩콩이와 무지개 물방울",
@@ -9,7 +19,7 @@
       "genre": "유아 동화",
       "summary": "콩콩이는 노란 장화를 신고 유치원 정원에 나가, 가장 작은 씨앗을 화단에 심었어요.",
       "page_count": 19,
-      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/11631a5f07fb52dec420-cover.webp"
+      "cover": "./media/20261008-book-03/11631a5f07fb52dec420-cover.webp"
     },
     {
       "book_id": "20261008-book-02",
@@ -19,7 +29,7 @@
       "genre": "역사",
       "summary": "조선의 산골 마을에서 견습 악공 도윤은 보름달 축제에 쓸 작은 북을 들고 관측소로 향했다.",
       "page_count": 17,
-      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/abb12decabb55622c498-cover.webp"
+      "cover": "./media/20261008-book-02/abb12decabb55622c498-cover.webp"
     },
     {
       "book_id": "20261008-book-01",
@@ -29,7 +39,7 @@
       "genre": "모험",
       "summary": "해원은 바닷길이 하루 두 번 사라지는 소등도에 도착해, 낡은 등대의 마지막 지도를 새로 그리기로 했다.",
       "page_count": 28,
-      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-08/9d1a5230c61fc6fa668d-cover.webp"
+      "cover": "./media/20261008-book-01/9d1a5230c61fc6fa668d-cover.webp"
     }
   ]
 }

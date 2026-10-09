@@ -1,0 +1,54 @@
+{
+  "book_id": "20261009-special-01",
+  "date": "2026-10-09",
+  "title": "달빛 우체국과 잃어버린 별빛 편지",
+  "type": "special",
+  "genre": "특별판 그림책",
+  "summary": "비가 갠 밤, 작은 달빛 우체국의 우편함 안에서 미루는 봉투도 주소도 없는 별빛 편지를 발견했어요. 편지는 따뜻하게 반짝였고, 미루는 누군가 오래 기다린 소식일지 모른다고 생각했지요.",
+  "page_count": 6,
+  "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-moonlight-post-office/9b02c59d8730100e7a6b-cover.webp",
+  "pages": [
+    {
+      "page": 1,
+      "paragraph": "비가 갠 밤, 작은 달빛 우체국의 우편함 안에서 미루는 봉투도 주소도 없는 별빛 편지를 발견했어요. 편지는 따뜻하게 반짝였고, 미루는 누군가 오래 기다린 소식일지 모른다고 생각했지요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-moonlight-post-office/9b02c59d8730100e7a6b.webp",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "page": 2,
+      "paragraph": "미루는 편지의 희미한 빛을 따라 언덕 위 등대에 사는 할머니를 찾아갔어요. 할머니는 별 모양 봉인을 알아보고, 바다 건너 오랜 친구가 보낸 소식일지도 모른다며 낡은 지도를 펼쳤어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-moonlight-post-office/a4943cbe2e5fde75b5a5.webp",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "page": 3,
+      "paragraph": "지도에는 바다 너머 반딧불 숲으로 이어지는 길이 그려져 있었어요. 미루는 잠시 망설였지만 편지를 가방에 꼭 넣고, 할머니에게 꼭 돌아오겠다고 약속한 뒤 길을 나섰어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-moonlight-post-office/ea51b3270a02031e2bf6.webp",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "page": 4,
+      "paragraph": "바닷가의 돌다리가 파도에 잠기자 미루는 작은 나룻배를 밀어 바다로 띄웠어요. 세찬 바람에도 편지가 젖지 않도록 가방을 감싸 안은 미루는 달빛을 따라 천천히 건너갔지요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-moonlight-post-office/26677344652a764c7ddc.webp",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "page": 5,
+      "paragraph": "반딧불 숲에 도착한 미루는 초록 목도리를 두른 고슴도치 노아를 만났어요. 노아는 별빛 편지를 보낸 이가 바로 자신이라며, 멀리 떠난 등대 할머니에게 다시 만나자는 초대장을 보냈다고 말했어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-moonlight-post-office/238eeaf0b28f35847b5d.webp",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "page": 6,
+      "paragraph": "새벽빛이 바다 위로 번질 때 미루와 노아는 함께 등대로 돌아와 할머니에게 편지를 건넸어요. 세 친구는 다시 만날 날짜를 약속하고, 등대 불빛처럼 오래도록 서로를 기억하기로 했답니다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-moonlight-post-office/c77e906edd720ecf478b.webp",
+      "width": 1600,
+      "height": 1600
+    }
+  ]
+}

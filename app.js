@@ -11,7 +11,7 @@
   let filterType = 'all';
   let archiveDays = 20;
   const moreBooks = document.querySelector('#more-books');
-  const typeNames = { film: '영화', animation: '애니메이션', children: '동화' };
+  const typeNames = { film: '영화', animation: '애니메이션', children: '동화', special: '특별편' };
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const hrefFor = (book, page) => `./?book=${encodeURIComponent(book.book_id)}${page ? `&page=${page}` : ''}`;
   const dateLabel = value => new Intl.DateTimeFormat('ko-KR', {dateStyle:'long', timeZone:'Asia/Seoul'}).format(new Date(`${value}T00:00:00+09:00`));
