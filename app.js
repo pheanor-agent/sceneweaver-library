@@ -54,6 +54,17 @@
     empty.hidden = visible.length > 0;
     moreBooks.hidden = groups.size <= archiveDays;
   }
+  // Narration settings are global (not per book) so a listener sets them once on any cover.
+  const prefs = {
+    get autoplay() { return localStorage.getItem('sceneweaver:autoplay') !== '0'; },
+    set autoplay(on) { localStorage.setItem('sceneweaver:autoplay', on ? '1' : '0'); },
+    get autoturn() { return localStorage.getItem('sceneweaver:autoturn') !== '0'; },
+    set autoturn(on) { localStorage.setItem('sceneweaver:autoturn', on ? '1' : '0'); },
+  };
+  const narration = new Audio();
+  narration.preload = 'auto';
+  let turnTimer = null;
+  const switchRow = (id, label, hint, on, disabled = false) => `<label class="nar-switch ${disabled ? 'is-disabled' : ''}" for="${id}"><span><strong>${label}</strong><small>${hint}</small></span><input type="checkbox" role="switch" id="${id}" ${on ? 'checked' : ''} ${disabled ? 'disabled' : ''}><i aria-hidden="true"></i></label>`;
   async function openReader(bookId, pageNumber) {
     const item = catalog.find(book => book.book_id === bookId);
     if (!item) { reader.innerHTML = `<div class="reader-error"><a href="./">← 서재로</a><h1>이 책을 찾을 수 없어요</h1><p>주소가 바뀌었거나 서재에 없는 책입니다.</p></div>`; app.hidden = true; reader.hidden = false; return; }
@@ -61,22 +72,75 @@
     try { const response = await fetch(`./data/books/${encodeURIComponent(bookId)}.json`); if (!response.ok) throw new Error('book_fetch_failed'); data = await response.json(); }
     catch (_) { reader.innerHTML = `<div class="reader-error"><a href="./">← 서재로</a><h1>책을 불러오지 못했어요</h1><p>잠시 후 다시 시도해 주세요.</p></div>`; app.hidden = true; reader.hidden = false; return; }
     const total = data.pages.length;
-    let current = Math.min(total, Math.max(1, Number.parseInt(pageNumber,10) || 1));
+    const hasAudio = data.pages.some(page => page.audio);
     const saved = Number.parseInt(localStorage.getItem(`sceneweaver:${bookId}:page`) || '0',10);
-    if (!pageNumber && saved > 1 && saved <= total) current = saved;
+    let current = Math.min(total, Math.max(1, Number.parseInt(pageNumber,10) || 1));
+    let unlocked = false;  // browsers allow sound only after a tap; the cover's start button provides it
     app.hidden = true; reader.hidden = false; reader.dataset.type = data.type;
+    const stopAudio = () => { clearTimeout(turnTimer); narration.pause(); };
+    const syncPlayButton = () => {
+      const btn = reader.querySelector('.nar-play');
+      if (!btn) return;
+      const playing = !narration.paused && !narration.ended;
+      btn.classList.toggle('is-playing', playing);
+      btn.setAttribute('aria-label', playing ? '낭독 멈춤' : '낭독 듣기');
+      btn.querySelector('span').textContent = playing ? '멈춤' : '듣기';
+    };
+    const playPage = () => {
+      const page = data.pages[current-1];
+      if (!page.audio) return;
+      clearTimeout(turnTimer);
+      if (!narration.src.endsWith(page.audio)) narration.src = page.audio;
+      narration.currentTime = 0;
+      narration.play().then(() => { unlocked = true; }).catch(() => {}).finally(syncPlayButton);
+    };
+    narration.onplay = narration.onpause = syncPlayButton;
+    narration.onended = () => {
+      syncPlayButton();
+      if (prefs.autoplay && prefs.autoturn && current < total) turnTimer = setTimeout(() => move(current + 1), 1200);
+    };
+    const cover = () => {
+      stopAudio();
+      const resume = !pageNumber && saved > 1 && saved <= total;
+      reader.innerHTML = `<nav class="reader-top"><a href="./" class="back-library">← 서재로</a><span>${esc(typeNames[data.type] || '이야기')} · ${esc(dateLabel(data.date))}</span></nav><div class="reader-wrap book-cover"><div class="cover-art"><img src="${esc(data.pages[0].image)}" alt="${esc(data.title)} 표지 그림"></div><div class="cover-info"><p class="cover-kicker">${esc(typeNames[data.type] || '이야기')} · ${esc(total)}쪽</p><h1>${esc(data.title)}</h1>${item.summary ? `<p class="cover-summary">${esc(item.summary)}</p>` : ''}${hasAudio ? `<fieldset class="nar-settings"><legend>낭독</legend>${switchRow('pref-autoplay', '음성 자동 재생', '페이지를 펼치면 바로 읽어 줍니다', prefs.autoplay)}${switchRow('pref-autoturn', '다 읽으면 다음 장으로', '낭독이 끝나면 책장을 넘깁니다', prefs.autoturn, !prefs.autoplay)}<p class="nar-note">설정은 이 기기의 모든 책에 적용됩니다.</p></fieldset>` : ''}<div class="cover-actions"><button type="button" class="cover-start" data-start="1">처음부터 읽기</button>${resume ? `<button type="button" class="cover-resume" data-start="${saved}">이어 읽기 · ${saved}쪽</button>` : ''}</div></div></div>`;
+      const autoplay = reader.querySelector('#pref-autoplay');
+      const autoturn = reader.querySelector('#pref-autoturn');
+      if (autoplay) autoplay.addEventListener('change', () => { prefs.autoplay = autoplay.checked; autoturn.disabled = !autoplay.checked; autoturn.closest('label').classList.toggle('is-disabled', !autoplay.checked); });
+      if (autoturn) autoturn.addEventListener('change', () => { prefs.autoturn = autoturn.checked; });
+      reader.querySelectorAll('[data-start]').forEach(button => button.addEventListener('click', () => {
+        current = Number(button.dataset.start);
+        if (hasAudio && prefs.autoplay) unlocked = true;
+        draw(); window.scrollTo(0,0);
+      }));
+      const url = new URL(location.href); url.searchParams.set('book',bookId); url.searchParams.delete('page'); history.replaceState({},'',url);
+    };
     const draw = () => {
       const page = data.pages[current-1];
-      reader.innerHTML = `<nav class="reader-top"><a href="./" class="back-library">← 서재로</a><span>${esc(typeNames[data.type] || '이야기')} · ${esc(dateLabel(data.date))}</span></nav><div class="reader-wrap"><header class="reader-title"><h1>${esc(data.title)}</h1><p>${String(current).padStart(2,'0')} <span>/</span> ${String(total).padStart(2,'0')}</p></header><div class="reader-image-frame"><img class="reader-image" src="${esc(page.image)}" alt="${esc(data.title)} ${current}쪽 그림" width="${esc(page.width)}" height="${esc(page.height)}"></div><p class="reader-paragraph" ${hasEmbeddedText(data) ? 'hidden' : ''}>${esc(page.paragraph)}</p><div class="reader-controls"><button type="button" data-step="-1" ${current===1?'disabled':''} aria-label="이전 페이지">← 이전</button><label class="sr-only" for="page-select">페이지 선택</label><select id="page-select">${data.pages.map((_,i)=>`<option value="${i+1}" ${i+1===current?'selected':''}>${i+1} / ${total}쪽</option>`).join('')}</select><button type="button" data-step="1" ${current===total?'disabled':''} aria-label="다음 페이지">다음 →</button></div><p class="reader-source">AI 생성 그림 · 원본 비율로 감상합니다</p></div>`;
+      const player = page.audio ? `<div class="nar-bar"><button type="button" class="nar-play" aria-label="낭독 듣기"><b aria-hidden="true"></b><span>듣기</span></button><label class="nar-auto"><input type="checkbox" id="bar-autoplay" ${prefs.autoplay ? 'checked' : ''}> 자동 재생</label></div>` : '';
+      reader.innerHTML = `<nav class="reader-top"><a href="./" class="back-library">← 서재로</a><span>${esc(typeNames[data.type] || '이야기')} · ${esc(dateLabel(data.date))}</span></nav><div class="reader-wrap${hasAudio ? ' page-turn' : ''}"><header class="reader-title"><h1>${esc(data.title)}</h1><p>${String(current).padStart(2,'0')} <span>/</span> ${String(total).padStart(2,'0')}</p></header><div class="reader-image-frame"><img class="reader-image" src="${esc(page.image)}" alt="${esc(data.title)} ${current}쪽 그림" width="${esc(page.width)}" height="${esc(page.height)}"></div><p class="reader-paragraph" ${hasEmbeddedText(data) ? 'hidden' : ''}>${esc(page.paragraph)}</p>${player}<div class="reader-controls"><button type="button" data-step="-1" ${current===1?'disabled':''} aria-label="이전 페이지">← 이전</button><label class="sr-only" for="page-select">페이지 선택</label><select id="page-select">${data.pages.map((_,i)=>`<option value="${i+1}" ${i+1===current?'selected':''}>${i+1} / ${total}쪽</option>`).join('')}</select><button type="button" data-step="1" ${current===total?'disabled':''} aria-label="다음 페이지">다음 →</button></div><p class="reader-source">AI 생성 그림${hasAudio ? ' · AI 낭독' : ''} · 원본 비율로 감상합니다</p></div>`;
       localStorage.setItem(`sceneweaver:${bookId}:page`, String(current));
       const url = new URL(location.href); url.searchParams.set('book',bookId); url.searchParams.set('page',String(current)); history.replaceState({},'',url);
       reader.querySelectorAll('[data-step]').forEach(button => button.addEventListener('click', () => move(current + Number(button.dataset.step))));
       reader.querySelector('#page-select').addEventListener('change', event => move(Number(event.target.value)));
       reader.querySelector('.reader-image').addEventListener('error', event => { event.currentTarget.alt = '그림을 불러오지 못했습니다'; event.currentTarget.classList.add('is-error'); });
+      const playBtn = reader.querySelector('.nar-play');
+      if (playBtn) {
+        playBtn.addEventListener('click', () => { if (!narration.paused) { stopAudio(); } else { unlocked = true; playPage(); } });
+        reader.querySelector('#bar-autoplay').addEventListener('change', event => { prefs.autoplay = event.target.checked; if (!event.target.checked) clearTimeout(turnTimer); });
+      }
+      stopAudio();
+      if (page.audio && prefs.autoplay && unlocked) playPage(); else syncPlayButton();
     };
     const move = page => { if (page >= 1 && page <= total) { current = page; draw(); window.scrollTo(0,0); } };
-    window.onkeydown = event => { if (event.key === 'ArrowRight') move(current+1); if (event.key === 'ArrowLeft') move(current-1); };
-    draw();
+    window.onkeydown = event => {
+      if (event.target.closest && event.target.closest('input,select')) return;
+      if (event.key === 'ArrowRight') move(current+1);
+      if (event.key === 'ArrowLeft') move(current-1);
+      if (event.key === ' ' && reader.querySelector('.nar-play')) { event.preventDefault(); reader.querySelector('.nar-play').click(); }
+    };
+    // Narrated (lab) books open on a cover with narration settings; every other book keeps the original flow.
+    if (!hasAudio) { if (!pageNumber && saved > 1 && saved <= total) current = saved; draw(); }
+    else if (pageNumber) draw(); else cover();
   }
   document.querySelectorAll('.filter[data-filter]').forEach(button => button.addEventListener('click', () => { filterType = button.dataset.filter; document.querySelectorAll('.filter[data-filter]').forEach(b => { const active = b === button; b.classList.toggle('is-active',active); b.setAttribute('aria-pressed',String(active)); }); renderArchive(newestForFilter()); }));
   moreBooks.addEventListener('click', () => { archiveDays += 20; renderArchive([...catalog].sort((a,b)=>b.date.localeCompare(a.date)), false); });
