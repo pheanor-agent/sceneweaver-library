@@ -1,0 +1,103 @@
+{
+  "book_id": "20261009-book-01-16x9",
+  "date": "2026-10-09",
+  "title": "비단길의 마지막 편지 (16:9 특별판)",
+  "type": "film",
+  "genre": "16:9 와이드 특별판",
+  "summary": "비 갠 한양 골목에서 서윤은 아버지의 푸른 비단끈 편지를 가방에 넣고 길을 떠났다.",
+  "page_count": 13,
+  "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/6550a0dacb91e357847a-cover.webp",
+  "pages": [
+    {
+      "page": 1,
+      "paragraph": "비 갠 한양 골목에서 서윤은 아버지의 푸른 비단끈 편지를 가방에 넣고 길을 떠났다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/15459382bc0a9714da05.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 2,
+      "paragraph": "나침반 바늘은 북쪽을 가리켰고, 서윤은 낯선 길도 제 발로 찾겠다고 마음먹었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/d07f415d3ed01f946a38.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 3,
+      "paragraph": "첫 역참에서 마부 덕구는 의주 길에 도적이 나타난다는 소문을 들려주었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/b69bd95feeae88bdab5c.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 4,
+      "paragraph": "서윤은 겁먹은 어린 심부름꾼을 만나 함께 길을 가자고 먼저 손을 내밀었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/fd4bd613c2d558d46d2f.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 5,
+      "paragraph": "산길에서 갑자기 비가 쏟아져 두 사람은 바위틈에서 비를 피했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/b7fae43a116e9c233f39.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 6,
+      "paragraph": "젖은 지도는 찢어졌지만, 서윤은 나침반과 별자리를 떠올려 방향을 잡았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/b9af7afdfe7d4526f57d.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 7,
+      "paragraph": "밤길에 나타난 그림자는 도적이 아니라 길을 잃은 상인이었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/c7724d19c80361e7b3d7.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 8,
+      "paragraph": "상인은 편지에 적힌 아버지의 이름을 보고 오래전 은혜를 갚고 싶다며 길을 안내했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/c4a005b2200ee5dd5df9.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 9,
+      "paragraph": "강물이 불어나자 서윤은 짐을 나누고 마을 사람들과 밧줄 다리를 만들었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/d5b4a9d9d8756d3a8ef9.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 10,
+      "paragraph": "강을 건넌 뒤 서윤은 편지를 열어 보았고, 아버지가 두 마을을 화해시키려 했음을 알았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/548425f03e7bdc4a9088.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 11,
+      "paragraph": "의주 성문 앞에서 두 마을 대표는 서로를 의심했지만, 서윤은 편지를 직접 읽어 주었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/76cacead17802e3f9cb4.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 12,
+      "paragraph": "아버지가 나눈 곡식과 도움의 기록에 사람들은 고개를 숙이고 서로 손을 잡았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/cfba11e4c019d07f13f3.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 13,
+      "paragraph": "서윤은 빈 가방과 따뜻한 미소로 한양으로 돌아섰고, 길 위의 새 인연을 마음에 담았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/8c1c7c47be1254d8444f.webp",
+      "width": 1600,
+      "height": 900
+    }
+  ]
+}

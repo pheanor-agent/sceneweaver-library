@@ -1,0 +1,82 @@
+{
+  "book_id": "20261009-book-02-16x9",
+  "date": "2026-10-09",
+  "title": "달빛을 조율하는 고래 (16:9 특별판)",
+  "type": "animation",
+  "genre": "16:9 와이드 특별판",
+  "summary": "루미가 사는 하늘바다에서 별들이 하나둘 깜빡이며 빛을 잃기 시작했다.",
+  "page_count": 10,
+  "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/85e4f306d541518c485f-cover.webp",
+  "pages": [
+    {
+      "page": 1,
+      "paragraph": "루미가 사는 하늘바다에서 별들이 하나둘 깜빡이며 빛을 잃기 시작했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/a52e026f2458cef596f3.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 2,
+      "paragraph": "루미는 달의 종이 멈췄다는 소식을 듣고 조개 피리를 챙겨 길을 나섰다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/f8b04c1d957e83286631.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 3,
+      "paragraph": "반짝이는 해파리 미오가 친구가 되어 별빛 산호숲으로 안내했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/1a57ee0c3b3124e7d436.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 4,
+      "paragraph": "산호숲의 별빛은 검은 구름이 삼켜 점점 어두워지고 있었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/b669c1e1a14b8e946e73.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 5,
+      "paragraph": "루미는 조개 피리를 불었지만 금 간 피리에서는 작은 바람만 새어 나왔다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/9633068009aab4c2ff2c.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 6,
+      "paragraph": "미오는 산호 조각을, 루미는 달빛 물방울을 모아 피리를 함께 고쳤다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/8fa690f57b83f95759bc.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 7,
+      "paragraph": "고친 피리의 노래가 검은 구름을 흔들었지만, 소용돌이가 친구들을 갈라놓았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/78d70c78098d6667458a.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 8,
+      "paragraph": "루미는 별등을 높이 들고 친구들의 목소리를 따라 안전한 길을 찾았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/16093a2ce68e80c544ed.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 9,
+      "paragraph": "달의 종 앞에 도착한 루미는 모두의 노래에 맞춰 피리를 길게 불었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/da5411503b87ef70ae42.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 10,
+      "paragraph": "맑은 종소리가 하늘바다를 채우자 별들이 다시 켜지고 루미는 친구들과 춤췄다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261009-16x9-text-edition/233c46f1213b9d409596.webp",
+      "width": 1600,
+      "height": 900
+    }
+  ]
+}
