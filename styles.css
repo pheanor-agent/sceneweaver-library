@@ -6,3 +6,9 @@
 .card-title a{color:inherit;text-decoration:none}.card-title a:hover{color:var(--green)}.archive-count{display:block;margin-top:8px;font-size:10px;font-weight:400}.archive-date{margin:0;line-height:1.6}.archive-book.book-card{border:0;background:transparent}.hero{padding-top:48px;padding-bottom:36px}.featured-card:first-child .cover-link{aspect-ratio:1.46/1}@media(max-width:760px){.featured-card{display:block}.featured-card .cover-link{height:auto;min-height:0;aspect-ratio:1.48}.hero{padding-top:38px}.featured-card .card-body{padding:18px}.archive-books .book-card{display:flex}.archive-book.book-card:hover{transform:none;box-shadow:none}}
 
 .archive-more{display:block;margin:24px auto;font-size:12px;padding:12px 22px}.archive-more[hidden]{display:none}
+
+/* LAB: 실험실 섹션 — 낮은 강조, 기본 접힘 */
+.lab-section{margin-top:8px}
+.lab-section .section-heading h2{font-size:26px}
+#lab-toggle{margin:0 auto 22px}
+#lab-toggle[aria-expanded="true"]{background:var(--green);border-color:var(--green);color:#fff}

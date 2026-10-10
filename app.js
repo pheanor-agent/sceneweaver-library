@@ -11,22 +11,31 @@
   let filterType = 'all';
   let archiveDays = 20;
   const moreBooks = document.querySelector('#more-books');
-  const typeNames = { film: '영화', animation: '애니메이션', children: '동화', special: '특별편' };
+  const typeNames = { film: '영화', animation: '애니메이션', children: '동화', special: '실험실' };
   const isSpecial = book => book.type === 'special' || String(book.book_id).endsWith('-16x9');
   const hasEmbeddedText = book => isSpecial(book);
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const hrefFor = (book, page) => `./?book=${encodeURIComponent(book.book_id)}${page ? `&page=${page}` : ''}`;
   const dateLabel = value => new Intl.DateTimeFormat('ko-KR', {dateStyle:'long', timeZone:'Asia/Seoul'}).format(new Date(`${value}T00:00:00+09:00`));
-  const card = (book, featuredCard = false) => `<article class="book-card ${featuredCard ? 'featured-card' : ''}" data-type="${esc(book.type)}"><a class="cover-link" href="${hrefFor(book)}" aria-label="${esc(book.title)} 읽기"><img src="${esc(book.cover)}" alt="${esc(book.title)} 표지" loading="lazy"><span class="cover-label">${esc(typeNames[book.type] || '책')}</span></a><div class="card-body"><p class="card-meta">${esc(dateLabel(book.date))} · ${esc(book.page_count)}쪽</p><h3 class="card-title"><a href="${hrefFor(book)}">${esc(book.title)}</a></h3><p class="card-summary">${esc(book.summary)}</p><a class="read-link" href="${hrefFor(book)}">이야기 펼치기 <span aria-hidden="true">↗</span></a></div></article>`;
+  const card = (book, featuredCard = false) => `<article class="book-card ${featuredCard ? 'featured-card' : ''}" data-type="${esc(book.type)}"><a class="cover-link" href="${hrefFor(book)}" aria-label="${esc(book.title)} 읽기"><img src="${esc(book.cover)}" alt="${esc(book.title)} 표지" loading="lazy"><span class="cover-label">${esc(isSpecial(book) ? '실험실' : (typeNames[book.type] || '책'))}</span></a><div class="card-body"><p class="card-meta">${esc(dateLabel(book.date))} · ${esc(book.page_count)}쪽</p><h3 class="card-title"><a href="${hrefFor(book)}">${esc(book.title)}</a></h3><p class="card-summary">${esc(book.summary)}</p><a class="read-link" href="${hrefFor(book)}">이야기 펼치기 <span aria-hidden="true">↗</span></a></div></article>`;
   function renderLibrary() {
     const sorted = [...catalog].sort((a,b) => b.date.localeCompare(a.date) || a.book_id.localeCompare(b.book_id));
     const regular = sorted.filter(book => !isSpecial(book));
     const specials = sorted.filter(isSpecial);
-    const specialsSection = document.querySelector('#specials-section');
-    const specialsGrid = document.querySelector('#specials-grid');
-    if (specials.length && specialsSection) {
-      specialsSection.hidden = false;
-      specialsGrid.innerHTML = specials.map(book => card(book, false)).join('');
+    const labSection = document.querySelector('#lab-section');
+    const labGrid = document.querySelector('#lab-grid');
+    const labToggle = document.querySelector('#lab-toggle');
+    if (specials.length && labSection && labGrid && labToggle) {
+      labSection.hidden = false;
+      labGrid.innerHTML = specials.map(book => card(book, false)).join('');
+      const applyState = open => {
+        labGrid.hidden = !open;
+        labToggle.textContent = open ? '실험실 접기' : '실험실 펼쳐 보기';
+        labToggle.setAttribute('aria-expanded', String(open));
+        localStorage.setItem('sceneweaver:lab-open', open ? '1' : '0');
+      };
+      labToggle.addEventListener('click', () => applyState(labGrid.hidden));
+      applyState(localStorage.getItem('sceneweaver:lab-open') === '1');
     }
     featured.innerHTML = regular.slice(0,3).map(book => card(book, true)).join('');
     const months = [...new Set(regular.map(book => book.date.slice(0,7)))].sort().reverse();

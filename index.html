@@ -25,11 +25,6 @@
       <div class="section-heading"><div><p class="eyebrow">FRESH OFF THE PRESS</p><h2 id="featured-title">오늘의 신간</h2></div><span class="section-index">01 / NEW</span></div>
       <div id="featured-grid" class="featured-grid" aria-live="polite"></div>
     </section>
-    <section class="featured" aria-labelledby="specials-title" hidden id="specials-section">
-      <div class="section-heading"><div><p class="eyebrow">SPECIAL EDITIONS</p><h2 id="specials-title">특별관</h2></div><span class="section-index">★ / SPECIAL</span></div>
-      <div id="specials-grid" class="featured-grid" aria-live="polite"></div>
-    </section>
-
     <section class="archive" aria-labelledby="archive-title">
       <div class="section-heading"><div><p class="eyebrow">THE GROWING COLLECTION</p><h2 id="archive-title">날짜별 서재</h2></div><span class="section-index">02 / ARCHIVE</span></div>
       <div class="library-controls">
@@ -45,6 +40,12 @@
       </div>
       <div id="archive-list" class="archive-list"></div>
       <button id="more-books" type="button" class="filter archive-more" hidden>이전 이야기 더 보기</button>
+    <section class="archive lab-section" aria-labelledby="lab-title" hidden id="lab-section">
+      <div class="section-heading"><div><p class="eyebrow">THE LABORATORY</p><h2 id="lab-title">실험실</h2></div><span class="section-index">03 / LAB</span></div>
+      <button type="button" id="lab-toggle" class="filter archive-more" aria-expanded="false" aria-controls="lab-grid">실험실 펼쳐 보기</button>
+      <div id="lab-grid" class="featured-grid" aria-live="polite" hidden></div>
+    </section>
+
       <p id="empty" class="empty-state" hidden>조건에 맞는 책이 아직 없어요. 검색어나 필터를 바꿔보세요.</p>
     </section>
     <footer><span>SCENEWEAVER LIBRARY</span><span>Stories, gathered day by day.</span></footer>
