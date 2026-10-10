@@ -12,18 +12,29 @@
   let archiveDays = 20;
   const moreBooks = document.querySelector('#more-books');
   const typeNames = { film: '영화', animation: '애니메이션', children: '동화', special: '특별편' };
+  const isSpecial = book => book.type === 'special' || String(book.book_id).endsWith('-16x9');
+  const hasEmbeddedText = book => isSpecial(book);
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const hrefFor = (book, page) => `./?book=${encodeURIComponent(book.book_id)}${page ? `&page=${page}` : ''}`;
   const dateLabel = value => new Intl.DateTimeFormat('ko-KR', {dateStyle:'long', timeZone:'Asia/Seoul'}).format(new Date(`${value}T00:00:00+09:00`));
   const card = (book, featuredCard = false) => `<article class="book-card ${featuredCard ? 'featured-card' : ''}" data-type="${esc(book.type)}"><a class="cover-link" href="${hrefFor(book)}" aria-label="${esc(book.title)} 읽기"><img src="${esc(book.cover)}" alt="${esc(book.title)} 표지" loading="lazy"><span class="cover-label">${esc(typeNames[book.type] || '책')}</span></a><div class="card-body"><p class="card-meta">${esc(dateLabel(book.date))} · ${esc(book.page_count)}쪽</p><h3 class="card-title"><a href="${hrefFor(book)}">${esc(book.title)}</a></h3><p class="card-summary">${esc(book.summary)}</p><a class="read-link" href="${hrefFor(book)}">이야기 펼치기 <span aria-hidden="true">↗</span></a></div></article>`;
   function renderLibrary() {
-    const newest = [...catalog].sort((a,b) => b.date.localeCompare(a.date) || a.book_id.localeCompare(b.book_id));
-    featured.innerHTML = newest.slice(0,3).map(book => card(book, true)).join('');
-    const months = [...new Set(newest.map(book => book.date.slice(0,7)))].sort().reverse();
+    const sorted = [...catalog].sort((a,b) => b.date.localeCompare(a.date) || a.book_id.localeCompare(b.book_id));
+    const regular = sorted.filter(book => !isSpecial(book));
+    const specials = sorted.filter(isSpecial);
+    const specialsSection = document.querySelector('#specials-section');
+    const specialsGrid = document.querySelector('#specials-grid');
+    if (specials.length && specialsSection) {
+      specialsSection.hidden = false;
+      specialsGrid.innerHTML = specials.map(book => card(book, false)).join('');
+    }
+    featured.innerHTML = regular.slice(0,3).map(book => card(book, true)).join('');
+    const months = [...new Set(regular.map(book => book.date.slice(0,7)))].sort().reverse();
     month.innerHTML = '<option value="">모든 달</option>' + months.map(m => `<option value="${m}">${m.replace('-', '년 ')}월</option>`).join('');
-    document.querySelector('#today-count').textContent = `${catalog.length}권의 이야기가 모였어요`;
-    renderArchive(newest);
+    document.querySelector('#today-count').textContent = `${regular.length}권의 이야기가 모였어요`;
+    renderArchive(newestForFilter());
   }
+  const newestForFilter = () => [...catalog].filter(book => !isSpecial(book)).sort((a,b) => b.date.localeCompare(a.date) || a.book_id.localeCompare(b.book_id));
   function renderArchive(books, reset = true) {
     if (reset) archiveDays = 20;
     const q = search.value.trim().toLocaleLowerCase('ko');
@@ -47,7 +58,7 @@
     app.hidden = true; reader.hidden = false; reader.dataset.type = data.type;
     const draw = () => {
       const page = data.pages[current-1];
-      reader.innerHTML = `<nav class="reader-top"><a href="./" class="back-library">← 서재로</a><span>${esc(typeNames[data.type] || '이야기')} · ${esc(dateLabel(data.date))}</span></nav><div class="reader-wrap"><header class="reader-title"><h1>${esc(data.title)}</h1><p>${String(current).padStart(2,'0')} <span>/</span> ${String(total).padStart(2,'0')}</p></header><div class="reader-image-frame"><img class="reader-image" src="${esc(page.image)}" alt="${esc(data.title)} ${current}쪽 그림" width="${esc(page.width)}" height="${esc(page.height)}"></div><p class="reader-paragraph">${esc(page.paragraph)}</p><div class="reader-controls"><button type="button" data-step="-1" ${current===1?'disabled':''} aria-label="이전 페이지">← 이전</button><label class="sr-only" for="page-select">페이지 선택</label><select id="page-select">${data.pages.map((_,i)=>`<option value="${i+1}" ${i+1===current?'selected':''}>${i+1} / ${total}쪽</option>`).join('')}</select><button type="button" data-step="1" ${current===total?'disabled':''} aria-label="다음 페이지">다음 →</button></div><p class="reader-source">AI 생성 그림 · 원본 비율로 감상합니다</p></div>`;
+      reader.innerHTML = `<nav class="reader-top"><a href="./" class="back-library">← 서재로</a><span>${esc(typeNames[data.type] || '이야기')} · ${esc(dateLabel(data.date))}</span></nav><div class="reader-wrap"><header class="reader-title"><h1>${esc(data.title)}</h1><p>${String(current).padStart(2,'0')} <span>/</span> ${String(total).padStart(2,'0')}</p></header><div class="reader-image-frame"><img class="reader-image" src="${esc(page.image)}" alt="${esc(data.title)} ${current}쪽 그림" width="${esc(page.width)}" height="${esc(page.height)}"></div><p class="reader-paragraph" ${hasEmbeddedText(data) ? 'hidden' : ''}>${esc(page.paragraph)}</p><div class="reader-controls"><button type="button" data-step="-1" ${current===1?'disabled':''} aria-label="이전 페이지">← 이전</button><label class="sr-only" for="page-select">페이지 선택</label><select id="page-select">${data.pages.map((_,i)=>`<option value="${i+1}" ${i+1===current?'selected':''}>${i+1} / ${total}쪽</option>`).join('')}</select><button type="button" data-step="1" ${current===total?'disabled':''} aria-label="다음 페이지">다음 →</button></div><p class="reader-source">AI 생성 그림 · 원본 비율로 감상합니다</p></div>`;
       localStorage.setItem(`sceneweaver:${bookId}:page`, String(current));
       const url = new URL(location.href); url.searchParams.set('book',bookId); url.searchParams.set('page',String(current)); history.replaceState({},'',url);
       reader.querySelectorAll('[data-step]').forEach(button => button.addEventListener('click', () => move(current + Number(button.dataset.step))));
@@ -58,9 +69,9 @@
     window.onkeydown = event => { if (event.key === 'ArrowRight') move(current+1); if (event.key === 'ArrowLeft') move(current-1); };
     draw();
   }
-  document.querySelectorAll('.filter[data-filter]').forEach(button => button.addEventListener('click', () => { filterType = button.dataset.filter; document.querySelectorAll('.filter[data-filter]').forEach(b => { const active = b === button; b.classList.toggle('is-active',active); b.setAttribute('aria-pressed',String(active)); }); renderArchive([...catalog].sort((a,b)=>b.date.localeCompare(a.date))); }));
+  document.querySelectorAll('.filter[data-filter]').forEach(button => button.addEventListener('click', () => { filterType = button.dataset.filter; document.querySelectorAll('.filter[data-filter]').forEach(b => { const active = b === button; b.classList.toggle('is-active',active); b.setAttribute('aria-pressed',String(active)); }); renderArchive(newestForFilter()); }));
   moreBooks.addEventListener('click', () => { archiveDays += 20; renderArchive([...catalog].sort((a,b)=>b.date.localeCompare(a.date)), false); });
-  search.addEventListener('input', () => renderArchive([...catalog].sort((a,b)=>b.date.localeCompare(a.date))));
-  month.addEventListener('change', () => renderArchive([...catalog].sort((a,b)=>b.date.localeCompare(a.date))));
+  search.addEventListener('input', () => renderArchive(newestForFilter()));
+  month.addEventListener('change', () => renderArchive(newestForFilter()));
   fetch('./data/catalog.json').then(response => { if (!response.ok) throw new Error('catalog_fetch_failed'); return response.json(); }).then(data => { catalog = Array.isArray(data.books) ? data.books : []; renderLibrary(); const params = new URLSearchParams(location.search); if (params.has('book')) openReader(params.get('book'), params.get('page')); }).catch(() => { document.querySelector('#today-count').textContent = '서재를 불러오지 못했어요'; empty.hidden = false; });
 })();
