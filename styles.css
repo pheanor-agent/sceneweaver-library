@@ -12,3 +12,6 @@
 .lab-section .section-heading h2{font-size:26px}
 #lab-toggle{margin:0 auto 22px}
 #lab-toggle[aria-expanded="true"]{background:var(--green);border-color:var(--green);color:#fff}
+
+/* LAB: hidden 속성이 .featured-grid display를 이기도록 */
+#lab-grid[hidden]{display:none}
