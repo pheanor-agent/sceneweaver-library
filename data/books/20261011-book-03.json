@@ -1,0 +1,180 @@
+{
+  "book_id": "20261011-book-03",
+  "date": "2026-10-11",
+  "title": "보미의 기분 가게",
+  "type": "children",
+  "genre": "유아 동화",
+  "summary": "시장 골목 끝에 작은 가게가 있었어요. 양말 인형 보미가 아침마다 문을 여는 곳이에요.",
+  "page_count": 24,
+  "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/ed7e6687ed96971be8d1-cover.webp",
+  "pages": [
+    {
+      "page": 1,
+      "paragraph": "시장 골목 끝에 작은 가게가 있었어요. 양말 인형 보미가 아침마다 문을 여는 곳이에요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/ed7e6687ed96971be8d1.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 2,
+      "paragraph": "오늘 보미는 기분이 이상했어요. 가슴이 콩닥콩닥 뛰는데 왜 그런지 몰랐어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/3875842f013df964215d.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 3,
+      "paragraph": "보미는 선반에 놓인 작은 병들을 보았어요. 병마다 이름표가 붙어 있었어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/7260c1e2a63d8093b5b0.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 4,
+      "paragraph": "노란 병에는 '기쁨'이라고 적혀 있었어요. 기쁨은 햇살처럼 따뜻했어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/0cbca7ee0e614d604cd8.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 5,
+      "paragraph": "파란 병에는 '슬픔'이라고 적혀 있었어요. 슬픔은 비 온 뒤 물웅덩이처럼 차가웠어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/5328e9de659f3fd8ae14.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 6,
+      "paragraph": "빨간 병에는 '화남'이라고 적혀 있었어요. 화남은 보글보글 끓는 주전자 같았어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/7ed13021e3bbd2d8ce49.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 7,
+      "paragraph": "초록 병에는 '설렘'이라고 적혀 있었어요. 설렘은 까치발을 들게 만들었어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/a6dc953def475edb6dbf.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 8,
+      "paragraph": "보미는 병을 하나씩 열어 보았어요. 그러자 여러 기분이 한꺼번에 튀어나왔어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/3336978a0b5d86e5545c.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 9,
+      "paragraph": "그때 친구 뭉치가 울면서 가게에 들어왔어요. 뭉치의 하얀 솜 얼굴이 빨개져 있었어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/27f42c2f7e56038e190d.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 10,
+      "paragraph": "뭉치는 친구들이 같이 놀아 주지 않았다고 말했어요. 보미는 뭉치의 이야기를 가만히 들어 주었어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/8dad0f7ab3090532c846.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 11,
+      "paragraph": "보미가 말했어요. '그건 서운했겠다. 많이 속상했지?' 뭉치가 고개를 끄덕였어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/4a5d451e381e9184167d.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 12,
+      "paragraph": "뭉치는 조금 울다가 다시 웃었어요. 자기 기분에 이름을 붙이니 마음이 가벼워졌대요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/7bc28ba54658018ff5ce.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 13,
+      "paragraph": "보미는 뭉치에게 파란 병을 건넸어요. '슬픔도 괜찮아. 우리가 같이 있으면 돼.'",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/520d5a7ca2a16b5c0dc3.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 14,
+      "paragraph": "가게 문 앞에 햇살이 내려앉았어요. 시장 골목이 조용해졌어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/348c5ce4a6d62fe67ed9.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 15,
+      "paragraph": "뭉치가 보미에게 물었어요. '너는 지금 기분이 어때?' 보미는 잠깐 생각했어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/5c39eac7a8ce421b4ea1.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 16,
+      "paragraph": "보미가 대답했어요. '조금 걱정돼. 그래도 너랑 있어서 설레.'",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/1ac0d454ae58b4446337.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 17,
+      "paragraph": "그러자 노란 병이 살짝 반짝였어요. 기쁨이 보미의 가슴에 쏙 들어왔어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/865b7ab9f02710c45516.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 18,
+      "paragraph": "시장 할머니가 지나가며 웃었어요. '오늘은 기분 가게가 바쁘네.'",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/8bcccce3e5ccf6740808.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 19,
+      "paragraph": "보미와 뭉치는 떡볶이 가게 앞에 줄 선 사람들을 보았어요. 그 사람들도 저마다 다른 기분을 안고 있었어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/56fc25d9eda604282ae1.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 20,
+      "paragraph": "보미는 생각했어요. 기분에는 좋은 것도 나쁜 것도 없어요. 모두 나의 마음이에요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/b622dcfc9142c8285a40.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 21,
+      "paragraph": "뭉치가 씩 웃으며 말했어요. '나 이제 서운하다고 말할래.'",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/a989ecf5ddbcbf93d0a0.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 22,
+      "paragraph": "보미도 씩 웃었어요. '나는 설레는 일을 또 찾아볼래.'",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/9251b7c2db1b2174b695.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 23,
+      "paragraph": "해가 지자 가게 등이 따뜻하게 켜졌어요. 보미와 뭉치는 나란히 집으로 걸어갔어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/c83ad9c6eaeaa592ba04.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 24,
+      "paragraph": "오늘 보미는 여러 기분을 알게 됐어요. 기분은 이름을 부를 때 더 가까워진다는 것도요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/59fefd7ef3545bd46575.webp",
+      "width": 1448,
+      "height": 1086
+    }
+  ]
+}

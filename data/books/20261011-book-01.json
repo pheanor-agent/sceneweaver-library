@@ -1,0 +1,138 @@
+{
+  "book_id": "20261011-book-01",
+  "date": "2026-10-11",
+  "title": "새벽 다섯 시의 장미 열한 송이",
+  "type": "film",
+  "genre": "코미디",
+  "summary": "새벽 다섯 시, 부산 야간 수산시장 끝자락. 플로리스트 하윤진은 장미 열한 송이를 품에 안고 경매 종소리를 기다린다.",
+  "page_count": 18,
+  "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/b99b6f7ac02bdfee8757-cover.webp",
+  "pages": [
+    {
+      "page": 1,
+      "paragraph": "새벽 다섯 시, 부산 야간 수산시장 끝자락. 플로리스트 하윤진은 장미 열한 송이를 품에 안고 경매 종소리를 기다린다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/b99b6f7ac02bdfee8757.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 2,
+      "paragraph": "오 분 전, 그녀는 생선 상자 사이에서 장미 세 송이를 찾아내 마지막으로 달려 나왔다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/d0981e7e74882b7f4511.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 3,
+      "paragraph": "네 시 십 분, 얼음을 실은 손수레가 길을 막았다. 하윤진은 손수레 주인과 꽃 한 송이로 협상을 시작했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/dea172869aaf94dfeb20.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 4,
+      "paragraph": "세 시 정각, 꽃집 셔터를 올리고 주문서를 다시 읽었다. '마지막 장면을 위한 장미, 새벽 다섯 시 전까지 수산시장 3번 게이트.'",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/1257564f7942772ab547.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 5,
+      "paragraph": "두 시, 그녀는 계산대 위에 주문서와 낡은 열쇠 꾸러미를 나란히 올려 두고 고개를 갸웃했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/29427dd8b4de8f898dad.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 6,
+      "paragraph": "자정, 가게 전화가 다시 울렸다. 수화기 너머의 목소리는 기침을 하며 이름을 밝히지 않았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/abaf9537e765beedb7ec.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 7,
+      "paragraph": "밤 열한 시, 옆 가게 안 씨 아저씨가 장난스럽게 말했다. '윤진 씨, 이 시간에 장미 독점이야?'",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/7526f9cce0f605b723f4.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 8,
+      "paragraph": "열 시, 처음 주문 전화가 왔다. 까칠한 목소리가 장미 열한 송이를 새벽까지 준비하라고 했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/9608019499dfbdf2044d.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 9,
+      "paragraph": "아홉 시, 그녀는 셔터를 내리기 직전 떡볶이를 먹으며 주문 메모를 바라보았다. 오늘 밤은 어쩐지 특별했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/3529dc0ee3340728d02d.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 10,
+      "paragraph": "여덟 시, 가게 앞 간판에 '오늘만 특별 주문'이라고 적은 종이를 붙였다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/fda4d97b08453a1cfbba.webp",
+      "width": 1370,
+      "height": 1148
+    },
+    {
+      "page": 11,
+      "paragraph": "사흘 전, 하윤진은 결혼식 부케를 바꿔 보내는 실수를 저질렀다. 손님이 웃으며 돌아갔지만 그녀는 한동안 얼굴이 빨개져 있었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/fe3f302b9d880e2c7a0a.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 12,
+      "paragraph": "그 실수를 본 사람은 시장의 오래된 꽃집 주인 강 할머니였다. 할머니는 박수를 치며 말했다. '실수한 꽃이 제일 오래 기억에 남지.'",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/c8cbfd6cfade0b19039f.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 13,
+      "paragraph": "일주일 전, 가게에는 손님이 하나도 없었다. 하윤진은 문을 닫을지 고민하며 빈 화분에 물을 주었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/66948385c68dbb1d5d91.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 14,
+      "paragraph": "한 달 전, 하윤진은 경매 사무실에서 장미 값을 흥정하다 졌다. 그 뒤로 매일 새벽 세 시에 일어나는 습관이 생겼다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/2a867c49c84207d6564d.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 15,
+      "paragraph": "두 달 전, 강 할머니가 허리를 다쳐 입원했다. 가게를 맡을 사람은 하윤진 한 명뿐이었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/8ca82bc0beffca434a04.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 16,
+      "paragraph": "그 전화의 목소리는 사실 할머니의 것이었다. 할머니는 병원 침대에서 마지막 주문서를 적어 두고 있었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/d19e29000497e43b7045.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 17,
+      "paragraph": "할머니는 시험을 냈다. 밤에 전화를 받고 새벽까지 꽃을 끝까지 책임지는 사람에게 가게를 맡기겠다고.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/23b27e32578cc424d98f.webp",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "page": 18,
+      "paragraph": "처음 가게 열쇠를 받던 날, 할머니는 하윤진의 손을 꼭 잡고 말했다. '가게는 네가 열어. 난 이제 기침만 할게.'",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-11/b8a375786a446e814dd0.webp",
+      "width": 1448,
+      "height": 1086
+    }
+  ]
+}
