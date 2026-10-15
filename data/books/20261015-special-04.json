@@ -1,0 +1,126 @@
+{
+  "book_id": "20261015-special-04",
+  "date": "2026-10-15",
+  "title": "토토의 기차 여행 — RedQW 실험판",
+  "type": "special",
+  "genre": "로컬 모델 실험 · redqw21-unlocked-v2",
+  "summary": "원본 16쪽 문안·순서를 유지한 redqw21-unlocked-v2 로컬 원출력 실험판입니다. 검토에서 페이지에 캐릭터·장면 변형과 글자형 아티팩트가 확인되었으며, 완성본이 아닌 모델 실험 결과입니다.",
+  "page_count": 16,
+  "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p01-4a5d96ff5ea241f1.webp",
+  "model_catalog": "redqw21-unlocked-v2",
+  "source_book_id": "20261015-book-03",
+  "pages": [
+    {
+      "page": 1,
+      "paragraph": "기차가 초록 들판을 달렸어요. 수달 토토는 창가에 앉아 있었어요. 오늘은 아기 동생을 만나러 가는 날이에요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p01-4a5d96ff5ea241f1.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 2,
+      "paragraph": "토토는 작은 가방을 꼭 안았어요. 가방 안에는 동생에게 줄 부드러운 파란 인형이 들어 있었어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p02-09bc8f64e821bdc0.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 3,
+      "paragraph": "“아기는 어떤 소리를 좋아할까?” 토토가 물었어요. 엄마는 “함께 찾아보자” 하고 웃었어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p03-cac1dcb69b1127d9.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 4,
+      "paragraph": "기차가 터널에 들어갔어요. 창문이 잠깐 까매지자 토토는 자기 얼굴을 보고 깜짝 놀랐어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p04-1c20175220f92bdf.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 5,
+      "paragraph": "터널을 나오자 창밖에 노란 꽃밭이 펼쳐졌어요. 토토는 꽃들이 손을 흔드는 것 같았어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p05-6abcee203d3d3dfb.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 6,
+      "paragraph": "옆자리 아기 곰이 딸랑이를 떨어뜨렸어요. 토토는 주워 주고 딸랑이 소리를 살짝 들어 보았어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p06-c9287ec0cadb8eff.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 7,
+      "paragraph": "딸랑이는 “짤랑짤랑” 맑은 소리를 냈어요. 토토는 그 소리를 가방 속 파란 인형에게 들려주었어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p07-893c8a765c6ba2f2.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 8,
+      "paragraph": "기차가 흔들리자 토토의 물병이 데굴데굴 굴러갔어요. 토토는 얼른 잡고 뚜껑이 잘 닫혔는지 살폈어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p08-d64c4be0508844aa.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 9,
+      "paragraph": "엄마는 물을 한 모금 마시고 쉬었어요. 토토도 창밖을 보며 천천히 숨을 쉬었어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p09-aeb21ac2eb0955ba.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 10,
+      "paragraph": "다음 역에서 할아버지 오소리가 탔어요. 토토는 자리를 조금 비켜 주고 인사를 했어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p10-5d92b092a74d11ec.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 11,
+      "paragraph": "오소리 할아버지는 작은 종이책을 읽고 있었어요. 토토는 그림 속 아기 동물을 가리키며 궁금한 것을 물었어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p11-cd58487869b1ab87.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 12,
+      "paragraph": "“아기는 처음 보는 것을 천천히 배운단다.” 할아버지가 말했어요. 토토는 고개를 끄덕였어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p12-4bb5a72d28035331.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 13,
+      "paragraph": "기차가 천천히 멈췄어요. 토토는 가방을 챙기고 엄마 손을 꼭 잡았어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p13-3f2b8fefd69fd108.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 14,
+      "paragraph": "역 앞에는 아빠가 기다리고 있었어요. 토토는 아빠와 함께 아기 동생이 있는 집으로 갔어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p14-571b88b0884e6576.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 15,
+      "paragraph": "아기 동생은 작은 이불 속에서 자고 있었어요. 토토는 파란 인형을 가까이 놓고 조용히 인사했어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p15-cc5b0f254bbf8812.webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "page": 16,
+      "paragraph": "아기가 살짝 웃었어요. 토토도 웃었어요. “내일은 어떤 소리가 좋을까?” 토토는 가족 품에서 포근히 잠들었어요.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p16-38d70a472fb2ff44.webp",
+      "width": 1600,
+      "height": 1200
+    }
+  ]
+}

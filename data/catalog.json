@@ -2,6 +2,26 @@
   "schema": "sceneweaver.public-catalog.v1",
   "books": [
     {
+      "book_id": "20261015-special-04",
+      "date": "2026-10-15",
+      "title": "토토의 기차 여행 — RedQW 실험판",
+      "type": "special",
+      "genre": "로컬 모델 실험 · redqw21-unlocked-v2",
+      "summary": "원본 16쪽 문안·순서를 유지한 redqw21-unlocked-v2 로컬 원출력 실험판입니다. 검토에서 페이지에 캐릭터·장면 변형과 글자형 아티팩트가 확인되었으며, 완성본이 아닌 모델 실험 결과입니다.",
+      "page_count": 16,
+      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/redqw-p01-4a5d96ff5ea241f1.webp"
+    },
+    {
+      "book_id": "20261015-special-03",
+      "date": "2026-10-15",
+      "title": "토토의 기차 여행 — Moody 실험판",
+      "type": "special",
+      "genre": "로컬 모델 실험 · krea2-moody",
+      "summary": "원본 16쪽 문안·순서를 유지한 krea2-moody 로컬 원출력 실험판입니다. 검토에서 페이지에 캐릭터·장면 변형과 글자형 아티팩트가 확인되었으며, 완성본이 아닌 모델 실험 결과입니다.",
+      "page_count": 16,
+      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/special-20261015-toto-local-models-job-4384/moody-p01-d390fffd20906f7e.webp"
+    },
+    {
       "book_id": "20261015-book-03",
       "date": "2026-10-15",
       "title": "토토의 기차 여행",
