@@ -1,0 +1,187 @@
+{
+  "book_id": "20261015-book-01",
+  "date": "2026-10-15",
+  "title": "비 내린 뒤의 마지막 한 잔",
+  "type": "film",
+  "genre": "스릴러-라이트",
+  "summary": "새벽의 교토, 료칸 1층 다실에서 스물여섯 살 한국인 바리스타 강해진은 젖은 앞치마를 벗고 금빛 단추 하나를 발견했다.",
+  "page_count": 25,
+  "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/d3c1b65a7a38b5912b0c-cover.webp",
+  "pages": [
+    {
+      "page": 1,
+      "paragraph": "새벽의 교토, 료칸 1층 다실에서 스물여섯 살 한국인 바리스타 강해진은 젖은 앞치마를 벗고 금빛 단추 하나를 발견했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/d3c1b65a7a38b5912b0c.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 2,
+      "paragraph": "단추는 오늘 열릴 국제 커피 대회의 심사위원장 외투에서 떨어진 것이었다. 하지만 대회장으로 가져갈 은색 원두 계량스푼이 사라져 있었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/c2995c79bf6b6c95affd.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 3,
+      "paragraph": "해진은 대회가 시작되기 전 물건을 찾겠다고 나섰다. 마지막으로 스푼을 본 사람은 밤새 주방을 지킨 요리사 사토였다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/edfa5485fcb30b778aee.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 4,
+      "paragraph": "사토는 새벽 배송 상자가 잠시 열려 있었고, 바닥에 커피 가루가 흩어졌다고 했다. 해진은 발자국 대신 가루의 방향을 살폈다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/90190b6caf781e219340.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 5,
+      "paragraph": "흔적은 뒷문까지 이어졌지만 빗물에 끊겼다. 해진은 가루에 섞인 볶은 보리 향을 맡고, 누군가 아침 차 상자와 스푼을 함께 옮겼다고 짐작했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/f19bd4c190e696fc5e48.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 6,
+      "paragraph": "차 상자는 정원으로 가는 돌길 옆에 놓여 있었다. 그 아래에는 은색 손잡이에 남은 미세한 긁힘 자국이 보였다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/70cd4d8357a8a0b7223c.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 7,
+      "paragraph": "정원 끝에는 대회 참가자 미카가 서 있었다. 그는 스푼을 훔친 것이 아니라, 밤중에 길 잃은 고양이를 상자에서 꺼내느라 물건을 옮겼다고 말했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/8e1f61580581105df745.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 8,
+      "paragraph": "고양이는 스푼을 물고 다실 다다미 아래로 달아났다. 해진은 미카와 함께 조용히 바닥을 살피며 작은 발소리를 따라갔다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/f55d9e228222124d6730.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 9,
+      "paragraph": "고양이는 빈 상자에 웅크리고 있었다. 스푼은 그 옆에 반짝였지만 손이 닿지 않는 깊은 틈에 끼어 있었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/83a991e310cbd6e4f41d.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 10,
+      "paragraph": "해진은 얇은 대나무 젓가락 두 개를 엮어 스푼을 끌어냈다. 손끝이 떨렸지만, 그녀는 숨을 고르고 천천히 움직였다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/6a5651b7d715d5245617.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 11,
+      "paragraph": "그때 료칸 종업원 유이가 심사위원장 외투를 들고 들어왔다. 단추 하나가 떨어져 있었다는 사실이 사건의 시작이었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/e53de32b4ecad0a70bcb.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "page": 12,
+      "paragraph": "해진은 단추의 실밥에 묻은 푸른 염료를 알아봤다. 어젯밤 그녀가 직접 만든 앞치마 끈과 같은 색이었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/0a0d796f6924a9d18eb0.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 13,
+      "paragraph": "전날 밤 앞치마를 수선하며 외투를 잠시 걸어 둔 사람이 바로 자신이었다. 해진은 스푼을 찾는 일에 몰두한 나머지 가장 가까운 단서를 놓쳤다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/db26bd6c2b16da13509c.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "page": 14,
+      "paragraph": "그녀는 심사위원장에게 사실을 솔직히 설명하고 사과했다. 심사위원장은 스푼을 받아 들고, 대회는 예정대로 열겠다고 말했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/4228d94d564d0d183055.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "page": 15,
+      "paragraph": "대회장으로 향하는 길, 해진은 손에 남은 은빛 자국을 보았다. 찾는 일은 끝났지만, 자기 자신을 믿는 일은 아직 시작되지 않았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/6b0e79ed431cabfe045b.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 16,
+      "paragraph": "첫 시음에서 해진의 커피는 예상보다 밋밋했다. 그녀는 심사위원의 점수보다 자신의 마음이 흔들리는 소리를 먼저 들었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/152acf99071c5c399c8d.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 17,
+      "paragraph": "그녀는 레시피를 바꾸지 않고 물의 온도만 낮췄다. 어젯밤 내내 내린 비가 원두 향을 바꾸었음을 알아차렸기 때문이다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/86d0b71ebc020d76d1a9.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 18,
+      "paragraph": "잔 위에 작은 산 모양의 라테 아트가 피어났다. 해진은 완벽한 그림보다 오늘의 비를 담아내고 싶었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/60b6bc304f2e779e4889.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 19,
+      "paragraph": "심사위원장은 한 모금 마시고 고개를 끄덕였다. 그러나 결과 발표 전, 해진은 점수표에서 자신의 이름 옆 빈칸을 발견했다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/c0abbdbba7e125204c74.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 20,
+      "paragraph": "빈칸은 실격 표시가 아니라 특별 심사 대상 표시였다. 해진은 오늘의 커피가 규칙을 넘어선 새로운 맛인지 묻는 질문을 받았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/3d40c418a69ac6e64291.webp",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "page": 21,
+      "paragraph": "그녀는 비가 바꾼 원두 향을 설명했다. 실수를 숨기지 않고 단서를 따라간 과정이 커피에도 남아 있다고 덧붙였다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/4445734ed46908fda5e9.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 22,
+      "paragraph": "결과는 우승이 아니었다. 대신 심사위원장은 다음 계절의 공동 메뉴 개발을 제안했고, 해진은 잠시 대답을 미뤘다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/633209903c4240ab669e.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 23,
+      "paragraph": "해진은 교토에 남아 메뉴를 만들기로 했다. 다만 자신의 이름으로 작은 카페를 열겠다는 계획도 함께 품었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/f7ad1024e3c83342eec9.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 24,
+      "paragraph": "저녁, 그녀는 은색 스푼을 제자리에 놓고 낡은 단추를 실로 꿰맸다. 이번에는 누구의 외투가 아니라 자신의 앞치마에 달았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/ea45a9254a64ca7be122.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 25,
+      "paragraph": "다음 날 아침, 문틈으로 첫 손님이 들어왔다. 해진은 새 메뉴의 이름을 아직 정하지 않았지만, 첫 잔을 기꺼이 내밀었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/68001b31d12836294388.webp",
+      "width": 1600,
+      "height": 900
+    }
+  ]
+}

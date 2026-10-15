@@ -1,0 +1,96 @@
+{
+  "book_id": "20261015-book-02",
+  "date": "2026-10-15",
+  "title": "그림자가 멈춘 시계탑",
+  "type": "animation",
+  "genre": "SF",
+  "summary": "사막 한가운데 기계 마을의 모든 시계가 같은 순간 멈췄다. 그림자 요정 누마는 자기 발밑의 그림자가 사라진 것을 가장 먼저 알아차렸다.",
+  "page_count": 12,
+  "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/b1b1911d3d8b6dedc834-cover.webp",
+  "pages": [
+    {
+      "page": 1,
+      "paragraph": "사막 한가운데 기계 마을의 모든 시계가 같은 순간 멈췄다. 그림자 요정 누마는 자기 발밑의 그림자가 사라진 것을 가장 먼저 알아차렸다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/b1b1911d3d8b6dedc834.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 2,
+      "paragraph": "누마는 마을 시계공인 노인 하산에게 달려갔다. 하산의 그림자는 벽에 붙어 있었지만, 입은 누마의 그림자처럼 움직였다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/52bdf34b8cd8f2be6238.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 3,
+      "paragraph": "누마의 시점에서 보면 마을 사람들은 모두 그림자를 잃었다. 하산의 시점에서는 그림자들이 한밤중에 광장으로 걸어갔다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/012f007be304a3c21383.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 4,
+      "paragraph": "누마는 거대한 태엽탑의 지하로 내려갔다. 멈춘 태엽 사이에서 작은 발자국이 모래를 밀어내고 있었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/930a6062a615bec2f8c5.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 5,
+      "paragraph": "하산은 오래된 도면에서 태엽탑의 심장이 둘로 나뉘어 있음을 발견했다. 그림자의 눈으로는 보이지 않는 문이 하나 더 있었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/88d2daddf9c947060928.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 6,
+      "paragraph": "두 사람은 서로 다른 길로 문을 찾았다. 누마는 바닥을 따라갔고, 하산은 벽에 겹친 그림자의 각도를 읽었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/12dff325a8c6113cb66f.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 7,
+      "paragraph": "문 안에는 마을의 그림자들이 둥글게 모여 있었다. 가운데에는 햇빛을 삼킨 작은 태엽 하나가 박동처럼 떨렸다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/388e20b3b797a69a7598.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 8,
+      "paragraph": "누마가 태엽을 만지자, 그림자들이 모두 누마의 얼굴로 변했다. 하산은 그중 한 얼굴이 자기 젊은 시절과 같다는 것을 알아보았다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/6f4cb73b05d62b668bf4.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 9,
+      "paragraph": "하산은 시계를 고치려면 자신의 그림자를 태엽에 넣어야 한다고 말했다. 누마는 그림자가 왜 도망쳤는지 먼저 물었다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/aeab39164f301d3a7524.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 10,
+      "paragraph": "그림자들은 오래전 하산이 마을의 시간을 멈춰 두고 싶어 했던 기억이었다. 그는 떠나는 딸을 붙잡고 싶어 시계의 하루를 반복시켰다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/36402ddfe60feea05e48.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 11,
+      "paragraph": "누마는 도망친 그림자들을 억지로 묶지 말자고 했다. 하산은 태엽을 풀고, 처음으로 내일이 오도록 시계를 돌렸다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/ff89abd15ac52cffa95c.webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "page": 12,
+      "paragraph": "마을의 그림자는 각자의 발밑으로 돌아갔고, 하산의 그림자는 문 쪽으로 손을 흔들었다. 누마의 그림자는 다시 생겼지만, 그 모양은 누마와 달랐다.",
+      "image": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/f662be90be535f219670.webp",
+      "width": 1600,
+      "height": 900
+    }
+  ]
+}

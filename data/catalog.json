@@ -2,6 +2,36 @@
   "schema": "sceneweaver.public-catalog.v1",
   "books": [
     {
+      "book_id": "20261015-book-03",
+      "date": "2026-10-15",
+      "title": "토토의 기차 여행",
+      "type": "children",
+      "genre": "유아 동화",
+      "summary": "기차가 초록 들판을 달렸어요. 수달 토토는 창가에 앉아 있었어요. 오늘은 아기 동생을 만나러 가는 날이에요.",
+      "page_count": 16,
+      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/9f3fb81045a32a7e8a65-cover.webp"
+    },
+    {
+      "book_id": "20261015-book-02",
+      "date": "2026-10-15",
+      "title": "그림자가 멈춘 시계탑",
+      "type": "animation",
+      "genre": "SF",
+      "summary": "사막 한가운데 기계 마을의 모든 시계가 같은 순간 멈췄다. 그림자 요정 누마는 자기 발밑의 그림자가 사라진 것을 가장 먼저 알아차렸다.",
+      "page_count": 12,
+      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/b1b1911d3d8b6dedc834-cover.webp"
+    },
+    {
+      "book_id": "20261015-book-01",
+      "date": "2026-10-15",
+      "title": "비 내린 뒤의 마지막 한 잔",
+      "type": "film",
+      "genre": "스릴러-라이트",
+      "summary": "새벽의 교토, 료칸 1층 다실에서 스물여섯 살 한국인 바리스타 강해진은 젖은 앞치마를 벗고 금빛 단추 하나를 발견했다.",
+      "page_count": 25,
+      "cover": "https://github.com/pheanor-agent/sceneweaver-library/releases/download/2026-10-15/d3c1b65a7a38b5912b0c-cover.webp"
+    },
+    {
       "book_id": "20261011-book-03",
       "date": "2026-10-11",
       "title": "보미의 기분 가게",
